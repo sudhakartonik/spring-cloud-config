@@ -1,10 +1,20 @@
-host:smtp.gmail.com
-port:587
-username:sudhakar.tonik
-password:Atos@123
-mail_smtp_starttls_enable:true
-mail_smtp_starttls_required:true
-mail_smtp_auth:true
-mail_smtp_connectiontimeout:5000
-mail_smtp_timeout:5000
-mail_smtp_writetimeout:5000
+server:
+  port: 8087
+spring:
+  application:
+    name: email-service
+  mail:
+    host: smtp.gmail.com
+    username: sudhakar.tonik
+    password: Atos@123
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          starttls:
+            enable: true
+            required: true
+          timeout: 5000
+          writetimeout: 5000
