@@ -1,0 +1,10 @@
+host:smtp.gmail.com
+port:587
+username:sudhakar.tonik
+password:Atos@123
+mail_smtp_starttls_enable:true
+mail_smtp_starttls_required:true
+mail_smtp_auth:true
+mail_smtp_connectiontimeout:5000
+mail_smtp_timeout:5000
+mail_smtp_writetimeout:5000
