@@ -1,12 +1,8 @@
-server:
-  port: 8087
 spring:
-  application:
-    name: email-service
   mail:
     host: smtp.gmail.com
     username: sudhakar.tonik
-    password: XXXXX
+    password: XXXXXX
     port: 587
     properties:
       mail:

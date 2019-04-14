@@ -1,0 +1,16 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    username: sudhakar.tonik
+    password: XXXXXX
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          connectiontimeout: 5000
+          starttls:
+            enable: true
+            required: true
+          timeout: 5000
+          writetimeout: 5000
